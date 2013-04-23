@@ -1,0 +1,42 @@
+#
+# system.prop for n880e
+#
+rild.libpath=/system/lib/libril-qc-1.so
+rild.libargs=-d /dev/smd0
+ro.cdma.home.operator.numeric=46003
+ro.telephony.default_network=4
+ro.config.cdma_subscription=0
+ro.cdma.factory=china
+ro.telephony.ril_class=QualcommSharedRIL
+ril.subscription.types=NV,RUIM
+
+debug.sf.hw=1
+
+
+
+com.qc.hardware=true
+ro.sf.lcd_density=240
+ro.opengles.version=131072
+
+
+
+persist.omh.enabled=1
+ro.max.fling_velocity=4000
+persist.fuse_sdcard=false
+
+ro.emmc.sdcard.partition=18
+# System
+dalvik.vm.heapsize=40m
+dalvik.vm.dexopt-data-only=1
+dalvik.vm.execution-mode=int:jit
+dalvik.vm.dexopt-flags=m=y,u=n
+
+
+gsm.version.baseband=N880EB01
+# af controller enable switcher
+ro.config.camera.afctl.enable=true
+
+keyguard.no_require_sim=true
+ro.vendor.extension_library=/system/lib/libqc-opt.so
+
+

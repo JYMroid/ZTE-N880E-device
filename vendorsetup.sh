@@ -1,0 +1,3 @@
+add_lunch_combo zte_n880e-userdebug
+#add_lunch_combo cm_n880e-userdebug
+add_lunch_combo cm_n880e-eng
